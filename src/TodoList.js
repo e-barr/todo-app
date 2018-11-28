@@ -7,7 +7,7 @@ class TodoList extends Component {
 
     render() {
         return (
-            <div className="todoListMain">
+            <div className="todo-list-main">
                 <div className="header">
                     <form onSubmit={this.props.addItem}>
                         <input
