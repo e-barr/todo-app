@@ -21,6 +21,7 @@ class TodoList extends Component {
                         >
                             add task
                         </button>
+                        <button onClick={this.props.deleteAll}>delete all</button>
                     </form>
 
                 </div>
